@@ -1,0 +1,32 @@
+{
+    "expo": {
+        "name": "KRCE Bus Tracker",
+        "slug": "KRCE Bus Tracker",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/B1.png",
+
+        "splash": {
+            "image": "./assets/B1.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/B1.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        "web": {
+            "favicon": "./assets/B1.png"
+        },
+        "platforms": ["ios", "android"]
+    }
+}
